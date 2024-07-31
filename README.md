@@ -11,7 +11,7 @@ No Internet Needed
 - LCD i2c (4 pin LCD)
 
 ## Connection
-![Connection to Arduino from LCD](https://projects.arduinocontent.cc/62ca4db5-b2f0-49bd-9458-45246ef4f662.jpeg)
+![Connection to Arduino from LCD](https://www.make-it.ca/wp-content/uploads/2021/09/arduino-uno-to-lcd-i2c.jpg)
 
 ## Usage
 1. Upload the receiver code to the Arduino
