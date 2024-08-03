@@ -1,6 +1,6 @@
 # LWP
 
-Compatible Only for Windows
+Compatible and tested with Windows and Linux 
 No Internet Needed
 
 ## Dependencies:

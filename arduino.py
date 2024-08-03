@@ -3,7 +3,7 @@ from pyfirmata import STRING_DATA, Arduino, util
 from fetchsong import get_song_info
 from unidecode import unidecode
 
-port = '/COM8' # Set the port being used
+port = '/dev/ttyACM0' # Set the port being used
 
 board = Arduino(port)
 
@@ -42,6 +42,8 @@ def update():
     D_shown = 0
     upper_text = unidecode(info["title"])
     lower_text = unidecode(info["author"])
+
+
 
 while True:
     if len(upper_text) > 16 and len(lower_text)>16:
